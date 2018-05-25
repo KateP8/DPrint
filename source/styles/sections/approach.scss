@@ -1,6 +1,6 @@
 .approach {
   padding: 86px 0 94px;
-  background-color: #f3f3f3;
+  background-color: #5AC0B3;
 
   .title {
     @media (max-width: 985px) {
@@ -25,7 +25,11 @@
     box-shadow: -1px -1px 10px 1px rgba(214, 214, 214, 1);
     color: #424242;
     background: #fff;
+  &__details_link{
+    color: red;
+    padding:20px 0px;
 
+  }
     @media (max-width: 985px) {
       padding: 25px 20px;
     }
@@ -40,7 +44,7 @@
       }
 
       .approach__text {
-        padding: 70px 90px 55px 90px;
+        padding: 70px 90px 55px 100px;
 
         @media (max-width: 985px) {
           padding: 25px 20px;
@@ -57,7 +61,7 @@
   &__image {
     position: relative;
     max-width: 340px;
-    max-height: 236px;
+    max-height: 289px;
     display: inline-block;
     vertical-align: top;
 
@@ -82,8 +86,8 @@
     display: inline-block;
     vertical-align: top;
     width: 64%;
-    padding: 70px 70px 55px 90px;
-    font-size: 0.875rem;
+    padding: 45px 70px 21px 90px;
+    font-size: 0.95rem;
 
     @media (max-width: 985px) {
       padding: 25px 20px;
@@ -99,14 +103,14 @@
     @include centerer-y();
 
     right: -52px;
-    width: 103px;
-    height: 103px;
+    width: 85px;
+    height: 85px;
     padding-top: 10px;
     border-radius: 5px;
     border: 2px solid #fff;
     text-align: center;
     font-size: 1.25rem;
-    background-color: #de2b24;
+    background-color: #5A9E61;
     color: #fff;
 
     &:before {

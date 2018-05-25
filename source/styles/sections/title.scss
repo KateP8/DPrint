@@ -9,10 +9,26 @@
     line-height: 1;
   }
 
+  &__header__about {
+    margin: 0;
+    font-size: 2.25rem;
+    font-family: $ff-main-bold;
+    line-height: 1;
+    padding-bottom:25px;
+  }
+
   &__text {
     font-size: 1.25rem;
     font-family: $ff-main-light;
+    padding-top: 5px;
   }
+
+  &__text__about {
+    font-size: 1.25rem;
+    font-family: $ff-main-light;
+    padding-bottom: 18px;
+  }
+
   
   &--with-bottom-line {
     position: relative;

@@ -1,5 +1,6 @@
 .about {
   padding: 99px 0 105px 0;
+  //background-color:#5FA567 ;
   text-align: center;
 
   @media (max-width: 960px) {
@@ -41,6 +42,7 @@
     font-size: 1.375rem;
     font-family: $ff-main-bold;
     color: #424242;
+    padding-bottom: 25px;
   }
 
   &__description {

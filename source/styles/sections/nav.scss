@@ -1,7 +1,7 @@
 .nav {
   display: inline-block;
   vertical-align: top;
-  margin-left: 50px;
+  margin-left: 10px;
 
   @media (max-width: 1030px) {
     margin-left: 0;
@@ -18,13 +18,13 @@
     font-family: $ff-main-bold;
     text-decoration: none;
     text-transform: capitalize;
-    color: #424242;
+    color: #5AC0B3;
     transition: 0.3s;
-    font-size: 1.2rem;
+    font-size: 1.31rem;
 
     &:hover,
     &--active {
-      color: #de2b24;
+      color: #475C93;
     }
 
     &:after {
