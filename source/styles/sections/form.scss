@@ -3,7 +3,7 @@
 
   padding: 100px 0 110px 0;
   color: #fff;
-  background-color: #5FA567;
+  background-color:#3E5181 ;
 
   @media (max-width: 810px) {
     padding: 50px 0 55px 0;
@@ -55,8 +55,8 @@
     width:50%;
     height: 220px;
     background-color: #DFDFD3 ;
-    border-bottom: 10px solid #5FA567;
-    border-right: 20px solid #5FA567;
+    border-bottom: 10px solid #3E5181;
+    border-right: 14px solid #3E5181;
     float:left;
 
   }
@@ -66,9 +66,9 @@
     width:50%;
     height: 220px;
     background-color: #DFDFD3 ;
-    border-bottom: 10px solid #5FA567 ;
+    border-bottom: 10px solid #3E5181 ;
     float:left;
-    border-left: 10px solid #5FA567;
+    border-left: 10px solid #3E5181;
   }
 
   &__contact {
@@ -79,6 +79,7 @@
     padding-top:15px;
     color: #2B3451;
     transition: 0.3s;
+    font-family: $ff-main;
 
     margin:0;
 
