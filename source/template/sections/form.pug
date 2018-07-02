@@ -6,26 +6,38 @@ section.form-section
     .form-section__map
       .form-section__contacts
         h3.form-section__contact Вы можете связаться  с   нами:
-        a.form-section__contact(href="tel:+74732210949")
-          i.fa.fa-phone.form-section__contact__icon(aria-hidden="true")
-          span.form-section__contact__text +7 473 221 09 49
-        a.form-section__contact(href="tel:+74732573055")
-          i.fa.fa-phone.form-section__contact__icon(aria-hidden="true")
-          span.form-section__contact__text +7 473 257-30-55
         a.form-section__contact(href="mailto:info@dataprintv.ru")
           i.fa.fa-envelope.form-section__contact__icon.form-section_contact__icon--email(aria-hidden="true")
           span.form-section__contact__text info@dataprint.vrn.ru
-        p.form-section__contact
-          i.fa.fa-map-marker.fa-3x.form-section__contact__icon(aria-hidden="true")
-          span.form-section__contact__text Воронеж, ул. Электросигнальная, 11
+
+        .form-section__phone
+          a.form-section__contact(href="tel:+74732210949")
+            i.fa.fa-phone.form-section__contact__icon(aria-hidden="true")
+            span.form-section__contact__text +7 473 221 09 49
+          a.form-section__contact(href="tel:+74732573055")
+            i.fa.fa-phone.form-section__contact__icon(aria-hidden="true")
+            span.form-section__contact__text +7 473 257-30-55
+        .form_section__phone
+          a.form-section__contact(href="tel:+79204549595")
+            i.fa.fa-mobile.form-section__contact__icon(aria-hidden="true")
+            span.form-section__contact__text +7 920 454 95 95
+          a.form-section__contact(href="tel:+79202269034")
+            i.fa.fa-mobile.form-section__contact__icon(aria-hidden="true")
+            span.form-section__contact__text +7 920 226 90 33
+
+
       .form-section__work-time
         h3.form-section__contact Время работы:
         p.form-section__contact
           i.fa.fa-clock-o.form-section__contact__icon(aria-hidden="true")
-          span.form-section__contact__text  10:00-17:00
+          span.form-section__contact__text  10:00-17:00 (без перерыва)
         p.form-section__contact
           i.fa.fa-calendar.form-section__contact__icon(aria-hidden="true")
           span.form-section__contact__text Выходные:  суббота, воскресенье
+        h3.form-section__contact Наш адрес:
+        p.form-section__contact
+          i.fa.fa-map-marker.fa-3x.form-section__contact__icon(aria-hidden="true")
+          span.form-section__contact__text Воронеж, ул. Электросигнальная, 11
       .form-section__map__main
           iframe(width="100%",height="400", frameborder="0", style="border:0", allowfullscreen, src="https://yandex.ru/map-widget/v1/?um=constructor%3A00054bd4a9088431a08a0eb275896cc31bab5ecfa90d2dcd7bf6e7e30824b445&amp;source=constructor")
 
